@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kard *.css
+recursive-include kard *.csv
+recursive-include kard *.html
+recursive-include kard *.ico
+recursive-include kard *.js
+recursive-include kard *.json
+recursive-include kard *.md
+recursive-include kard *.png
+recursive-include kard *.py
+recursive-include kard *.svg
+recursive-include kard *.txt
+recursive-exclude kard *.pyc

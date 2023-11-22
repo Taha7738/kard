@@ -1,0 +1,36 @@
+    :root,
+   [data-theme=light] {
+       --navbar-bg: #85bdbd;
+       --gray-200: #85bdbd;
+       --gray-800: #85bdbd;
+   }
+   
+   *,
+   *:before,
+   *:after {}
+   
+   @media (min-width: 768px) {
+       body.full-width .container {
+           width: 100%;
+           max-width: 100%
+       }
+   }
+   
+   .standard-sidebar .standard-sidebar-item,
+   .desk-sidebar .standard-sidebar-item,
+   .search-dialog .search-results .search-sidebar .standard-sidebar-item {
+       display: flex;
+       align-items: center;
+       font-size: var(--text-base);
+       padding: 10px 15px;
+       margin-bottom: 12px;
+       border: solid 1px #008b8b;
+       border-radius: var(--border-radius-md);
+       overflow: hidden;
+       cursor: pointer
+   }
+   
+   [data-page-route=Workspaces] .sidebar-item-container .sidebar-item-container .standard-sidebar-item {
+       justify-content: start;
+       border: 0px;
+   }
